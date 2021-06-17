@@ -1,0 +1,29 @@
+import logo from './logo.svg'
+import { Navbar, Nav, Container, Button } from "react-bootstrap";
+
+export function Header() {
+  return (
+    <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">
+          <img
+            alt=""
+            src={logo}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />{" "}
+          GivingHood
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav>
+            <Nav.Link href="#home" className="mr-2">Tokenomics</Nav.Link>
+            <Nav.Link href="#link" className="mr-2">Roadmap</Nav.Link>
+            <Nav.Link as={Button} href="#pancakeswap" variant="outline-secondary" className="last">Buy GivingHood</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
