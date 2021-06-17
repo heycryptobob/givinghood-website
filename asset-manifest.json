@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/givinghood-website/static/css/main.9c22dfba.chunk.css",
-    "main.js": "/givinghood-website/static/js/main.84853e81.chunk.js",
-    "main.js.map": "/givinghood-website/static/js/main.84853e81.chunk.js.map",
+    "main.css": "/givinghood-website/static/css/main.09238549.chunk.css",
+    "main.js": "/givinghood-website/static/js/main.d7ecd1cf.chunk.js",
+    "main.js.map": "/givinghood-website/static/js/main.d7ecd1cf.chunk.js.map",
     "runtime-main.js": "/givinghood-website/static/js/runtime-main.b1321285.js",
     "runtime-main.js.map": "/givinghood-website/static/js/runtime-main.b1321285.js.map",
-    "static/js/2.ad593243.chunk.js": "/givinghood-website/static/js/2.ad593243.chunk.js",
-    "static/js/2.ad593243.chunk.js.map": "/givinghood-website/static/js/2.ad593243.chunk.js.map",
+    "static/js/2.6ca95d35.chunk.js": "/givinghood-website/static/js/2.6ca95d35.chunk.js",
+    "static/js/2.6ca95d35.chunk.js.map": "/givinghood-website/static/js/2.6ca95d35.chunk.js.map",
     "static/js/3.39cb64d3.chunk.js": "/givinghood-website/static/js/3.39cb64d3.chunk.js",
     "static/js/3.39cb64d3.chunk.js.map": "/givinghood-website/static/js/3.39cb64d3.chunk.js.map",
     "index.html": "/givinghood-website/index.html",
-    "static/css/main.9c22dfba.chunk.css.map": "/givinghood-website/static/css/main.9c22dfba.chunk.css.map",
-    "static/js/2.ad593243.chunk.js.LICENSE.txt": "/givinghood-website/static/js/2.ad593243.chunk.js.LICENSE.txt",
+    "static/css/main.09238549.chunk.css.map": "/givinghood-website/static/css/main.09238549.chunk.css.map",
+    "static/js/2.6ca95d35.chunk.js.LICENSE.txt": "/givinghood-website/static/js/2.6ca95d35.chunk.js.LICENSE.txt",
     "static/media/bogtools.62d1cb89.svg": "/givinghood-website/static/media/bogtools.62d1cb89.svg",
     "static/media/bscscan.7d356d7a.svg": "/givinghood-website/static/media/bscscan.7d356d7a.svg",
     "static/media/logo.6ce24c58.svg": "/givinghood-website/static/media/logo.6ce24c58.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b1321285.js",
-    "static/js/2.ad593243.chunk.js",
-    "static/css/main.9c22dfba.chunk.css",
-    "static/js/main.84853e81.chunk.js"
+    "static/js/2.6ca95d35.chunk.js",
+    "static/css/main.09238549.chunk.css",
+    "static/js/main.d7ecd1cf.chunk.js"
   ]
 }
