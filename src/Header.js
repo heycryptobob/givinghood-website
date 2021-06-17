@@ -18,8 +18,9 @@ export function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link href="#home" className="mr-2">Tokenomics</Nav.Link>
-            <Nav.Link href="#link" className="mr-2">Roadmap</Nav.Link>
+            <Nav.Link href="#tokenomics" className="me-3">Tokenomics</Nav.Link>
+            <Nav.Link href="#roadmap" className="me-3">Roadmap</Nav.Link>
+            <Nav.Link href="#community" className="me-3">Community</Nav.Link>
             <Nav.Link as={Button} href="#pancakeswap" variant="outline-secondary" className="last">Buy GivingHood</Nav.Link>
           </Nav>
         </Navbar.Collapse>
