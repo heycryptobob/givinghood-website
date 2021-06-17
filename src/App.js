@@ -1,7 +1,7 @@
 import "./App.scss";
 import { Header } from "./Header";
 import { Home } from "./Home";
-import { Fund } from "./Fund";
+// import { Fund } from "./Fund";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path="/fund">
+        {/* <Route path="/fund">
           <Fund />
-        </Route>
+        </Route> */}
         <Route path="/">
           <Home />
         </Route>
