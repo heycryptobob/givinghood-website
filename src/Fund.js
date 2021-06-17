@@ -44,7 +44,7 @@ export function Fund() {
   return (
     <div className="p-5" id="fund">
       <Container className="pb-5">
-        <Row>
+        <Row md={1} lg={2}>
           <Col>
             <h1 className="display-6 fw-bold mt-4 pt-4">
               Introducing the Giving Fund
@@ -71,7 +71,7 @@ export function Fund() {
             </OverlayTrigger>
           </Col>
           <Col>
-            <Row className="mt-5">
+            <Row xs={1} md={2} className="mt-5">
               {data.map((item, key) => (
                 <CustomCard key={key} item={item} />
               ))}
