@@ -13,3 +13,21 @@
 // );
 
 @import "~bootstrap/scss/bootstrap";
+
+.btn.btn-outline-secondary {
+
+  path {
+    fill: $secondary;
+  }
+
+  &:hover {
+    path {
+      fill: $light;
+    }
+  }
+
+}
+
+.icon.text-secondary path {
+  fill: $secondary
+}

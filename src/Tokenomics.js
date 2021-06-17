@@ -3,24 +3,20 @@ import Zoom from "react-reveal/Zoom";
 
 const metrics = [
   {
-    // img_src: "https://via.placeholder.com/64.png",
-    title: "Card title",
-    text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    title: "Liquidity",
+    value: 5,
   },
   {
-    // img_src: "https://via.placeholder.com/64.png",
-    title: "Card title",
-    text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    title: "Holders",
+    value: 4,
   },
   {
-    // img_src: "https://via.placeholder.com/64.png",
-    title: "Card title",
-    text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    title: "Burn",
+    value: 1,
   },
   {
-    // img_src: "https://via.placeholder.com/64.png",
-    title: "Card title",
-    text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    title: "Giving Fund",
+    value: 2,
   },
 ];
 
@@ -28,11 +24,10 @@ function Metric({ metric }) {
   return (
     <Col>
       <Zoom>
-        <Card>
-          <Card.Body>
-            {/* <Card.Img variant="top" src={metric.img_src} /> */}
+        <Card className="border-0">
+          <Card.Body className="text-center">
             <Card.Title>{metric.title}</Card.Title>
-            <Card.Text>{metric.text}</Card.Text>
+            <Card.Text className="display-2">{metric.value}%</Card.Text>
           </Card.Body>
         </Card>
       </Zoom>
@@ -42,7 +37,7 @@ function Metric({ metric }) {
 
 export function Tokenomics() {
   return (
-    <div className="p-5" id="tokenomics">
+    <div className="p-5 bg-light" id="tokenomics">
       <Container className="pb-5">
         <h2 className="display-6 fw-bold mt-4 pt-4 text-center">Tokenomics</h2>
         <p className="offset-md-3 col-md-6 fs-5 mt-4 text-center">

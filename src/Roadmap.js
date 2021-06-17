@@ -8,11 +8,10 @@ import {
   Badge,
 } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
-// import { CheckCircle, Circle } from "@styled-icons/fa-solid";
 
 const roadmap = [
   {
-    title: "title",
+    title: "Phase 1",
     list: [
       { name: "objective 1", state: "complete" },
       { name: "objective 2", state: "complete" },
@@ -22,7 +21,7 @@ const roadmap = [
     ],
   },
   {
-    title: "title",
+    title: "Phase 2",
     list: [
       { name: "objective 1", state: "pending" },
       { name: "objective 2", state: "pending" },
@@ -30,7 +29,7 @@ const roadmap = [
     ],
   },
   {
-    title: "title",
+    title: "Phase 3",
     list: [
       { name: "objective 1", state: "pending" },
       { name: "objective 2", state: "pending" },
@@ -55,7 +54,7 @@ function ListItem({ listItem }) {
   }
 
   return (
-    <ListGroupItem className="d-flex align-items-center border-0 ps-0">
+    <ListGroupItem className="d-flex align-items-center justify-content-between border-0 ps-0">
       {listItem.name}
       &nbsp; {icon}
     </ListGroupItem>
@@ -96,7 +95,7 @@ function isOdd(num) {
 
 export function Roadmap() {
   return (
-    <div className="p-5 bg-light" id="roadmap">
+    <div className="p-5" id="roadmap">
       <Container className="pb-5">
         <h2 className="display-6 fw-bold mt-4 pt-4 text-center">Roadmap</h2>
         <p className="offset-md-3 col-md-6 fs-5 mt-4 text-center mb-5">
