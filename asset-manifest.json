@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c22dfba.chunk.css",
-    "main.js": "/static/js/main.84853e81.chunk.js",
-    "main.js.map": "/static/js/main.84853e81.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a0dbd2c1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a0dbd2c1.js.map",
-    "static/js/2.665014d8.chunk.js": "/static/js/2.665014d8.chunk.js",
-    "static/js/2.665014d8.chunk.js.map": "/static/js/2.665014d8.chunk.js.map",
-    "static/js/3.39cb64d3.chunk.js": "/static/js/3.39cb64d3.chunk.js",
-    "static/js/3.39cb64d3.chunk.js.map": "/static/js/3.39cb64d3.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9c22dfba.chunk.css.map": "/static/css/main.9c22dfba.chunk.css.map",
-    "static/js/2.665014d8.chunk.js.LICENSE.txt": "/static/js/2.665014d8.chunk.js.LICENSE.txt",
-    "static/media/bogtools.62d1cb89.svg": "/static/media/bogtools.62d1cb89.svg",
-    "static/media/bscscan.7d356d7a.svg": "/static/media/bscscan.7d356d7a.svg",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
-    "static/media/pancakeswap.8ed01eeb.svg": "/static/media/pancakeswap.8ed01eeb.svg"
+    "main.css": "/givinghood-website/static/css/main.9c22dfba.chunk.css",
+    "main.js": "/givinghood-website/static/js/main.84853e81.chunk.js",
+    "main.js.map": "/givinghood-website/static/js/main.84853e81.chunk.js.map",
+    "runtime-main.js": "/givinghood-website/static/js/runtime-main.b1321285.js",
+    "runtime-main.js.map": "/givinghood-website/static/js/runtime-main.b1321285.js.map",
+    "static/js/2.ad593243.chunk.js": "/givinghood-website/static/js/2.ad593243.chunk.js",
+    "static/js/2.ad593243.chunk.js.map": "/givinghood-website/static/js/2.ad593243.chunk.js.map",
+    "static/js/3.39cb64d3.chunk.js": "/givinghood-website/static/js/3.39cb64d3.chunk.js",
+    "static/js/3.39cb64d3.chunk.js.map": "/givinghood-website/static/js/3.39cb64d3.chunk.js.map",
+    "index.html": "/givinghood-website/index.html",
+    "static/css/main.9c22dfba.chunk.css.map": "/givinghood-website/static/css/main.9c22dfba.chunk.css.map",
+    "static/js/2.ad593243.chunk.js.LICENSE.txt": "/givinghood-website/static/js/2.ad593243.chunk.js.LICENSE.txt",
+    "static/media/bogtools.62d1cb89.svg": "/givinghood-website/static/media/bogtools.62d1cb89.svg",
+    "static/media/bscscan.7d356d7a.svg": "/givinghood-website/static/media/bscscan.7d356d7a.svg",
+    "static/media/logo.6ce24c58.svg": "/givinghood-website/static/media/logo.6ce24c58.svg",
+    "static/media/pancakeswap.8ed01eeb.svg": "/givinghood-website/static/media/pancakeswap.8ed01eeb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0dbd2c1.js",
-    "static/js/2.665014d8.chunk.js",
+    "static/js/runtime-main.b1321285.js",
+    "static/js/2.ad593243.chunk.js",
     "static/css/main.9c22dfba.chunk.css",
     "static/js/main.84853e81.chunk.js"
   ]
