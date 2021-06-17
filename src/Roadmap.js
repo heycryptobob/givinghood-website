@@ -8,7 +8,7 @@ import {
   Badge,
 } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
-import { CheckCircle, Circle } from "@styled-icons/fa-solid";
+// import { CheckCircle, Circle } from "@styled-icons/fa-solid";
 
 const roadmap = [
   {
