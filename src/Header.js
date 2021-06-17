@@ -1,5 +1,6 @@
-import logo from './logo.svg'
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
+// import logo from './logo.svg'
+import { Navbar, Nav, Container, Button, OverlayTrigger } from "react-bootstrap";
+import { PublishTooltip } from "./PublishTooltip";
 // import { Link } from "react-router-dom";
 
 export function Header() {
@@ -7,13 +8,13 @@ export function Header() {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <img
+          {/* <img
             alt=""
             src={logo}
             width="30"
             height="30"
             className="d-inline-block align-top"
-          />{" "}
+          />{" "} */}
           GivingHood
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -24,7 +25,9 @@ export function Header() {
             <Nav.Link href="#roadmap" className="me-3">Roadmap</Nav.Link>
             <Nav.Link href="#fund" className="me-3">Fund</Nav.Link>
             <Nav.Link href="#community" className="me-3">Community</Nav.Link>
-            <Nav.Link as={Button} href="https://pancakeswap.finance" variant="outline-secondary" className="last">Buy GivingHood</Nav.Link>
+            <OverlayTrigger placement="bottom" overlay={PublishTooltip}>
+              <Nav.Link as={Button} variant="outline-secondary" className="last">Buy GivingHood</Nav.Link>
+            </OverlayTrigger>
           </Nav>
         </Navbar.Collapse>
       </Container>

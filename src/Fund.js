@@ -42,7 +42,7 @@ function CustomCard({ item }) {
 
 export function Fund() {
   return (
-    <div className="p-5" id="fund">
+    <div className="p-5 bg-light" id="fund">
       <Container className="pb-5">
         <Row md={1} lg={2}>
           <Col>
