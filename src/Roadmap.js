@@ -5,8 +5,10 @@ import {
   Card,
   ListGroup,
   ListGroupItem,
+  Badge,
 } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
+import { CheckCircle, Circle } from "@styled-icons/fa-solid";
 
 const roadmap = [
   {
@@ -39,7 +41,25 @@ const roadmap = [
 ];
 
 function ListItem({ listItem }) {
-  return <ListGroupItem>{listItem.name}</ListGroupItem>;
+  let icon;
+  switch (listItem.state) {
+    case "complete":
+      icon = <Badge className="bg-success">Completed</Badge>;
+      break;
+    case "progress":
+      icon = <Badge className="bg-warning">In Progress</Badge>;
+      break;
+    default:
+      icon = <Badge className="bg-secondary">Pending</Badge>;
+      break;
+  }
+
+  return (
+    <ListGroupItem className="d-flex align-items-center border-0 ps-0">
+      {listItem.name}
+      &nbsp; {icon}
+    </ListGroupItem>
+  );
 }
 
 function Item({ item, isOdd }) {
@@ -54,16 +74,16 @@ function Item({ item, isOdd }) {
         lg={{ span: 4, offset: lgOffset }}
       >
         <Zoom>
-        <Card>
-          <Card.Body>
-            <Card.Title>{item.title}</Card.Title>
-            <ListGroup className="list-group-flush">
-              {item.list.map((listItem, key) => (
-                <ListItem key={key} listItem={listItem} />
-              ))}
-            </ListGroup>
-          </Card.Body>
-        </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>{item.title}</Card.Title>
+              <ListGroup className="list-group-flush">
+                {item.list.map((listItem, key) => (
+                  <ListItem key={key} listItem={listItem} />
+                ))}
+              </ListGroup>
+            </Card.Body>
+          </Card>
         </Zoom>
       </Col>
     </Row>

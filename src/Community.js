@@ -3,7 +3,7 @@ import { Telegram, Twitter } from "@styled-icons/fa-brands";
 
 function Social({ children, url }) {
   return (
-    <a href={url} className="me-4 text-light">
+    <a href={url} className="me-4 bg-dark text-light">
       {children}
     </a>
   );
