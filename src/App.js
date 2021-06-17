@@ -1,21 +1,22 @@
-import './App.scss';
-import { Header } from './Header'
-import { Hero } from './Hero';
-import { Roadmap } from './Roadmap';
-import { Tokenomics } from './Tokenomics';
-import { Community } from './Community';
-import Features from './Features';
+import "./App.scss";
+import { Header } from "./Header";
+import { Home } from "./Home";
+import { Fund } from "./Fund";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <Hero />
-      <Features />
-      <Tokenomics />
-      <Roadmap />
-      <Community />
-    </>
+      <Switch>
+        <Route path="/fund">
+          <Fund />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

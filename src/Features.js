@@ -39,7 +39,7 @@ function Feature({ feature }) {
   );
 }
 
-export default function Features() {
+export function Features() {
   return (
     <div className="p-5" id="features">
       <Container className="pb-5">
