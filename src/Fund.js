@@ -28,7 +28,7 @@ function CustomCard({ item }) {
   return (
     <Col>
       <Zoom>
-        <Card className="p-2">
+        <Card className="p-2 mb-4">
           <Card.Body className="text-center">
             <Card.Title className="pb-4">{item.title}</Card.Title>
             <Card.Text className="display-5 ">{item.tagline}</Card.Text>

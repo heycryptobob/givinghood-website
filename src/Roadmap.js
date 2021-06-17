@@ -5,9 +5,9 @@ import {
   Card,
   ListGroup,
   ListGroupItem,
-  Badge,
 } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
+import { Circle } from '@styled-icons/fa-solid'
 
 const roadmap = [
   {
@@ -43,13 +43,13 @@ function ListItem({ listItem }) {
   let icon;
   switch (listItem.state) {
     case "complete":
-      icon = <Badge className="bg-success">Completed</Badge>;
+      icon = <Circle size={16} className="text-success" />
       break;
     case "progress":
-      icon = <Badge className="bg-warning">In Progress</Badge>;
+      icon = <Circle size={16} className="text-warning" /> 
       break;
     default:
-      icon = <Badge className="bg-secondary">Pending</Badge>;
+      icon = <Circle size={16} className="text-secondary" /> 
       break;
   }
 
