@@ -13,28 +13,28 @@ const roadmap = [
   {
     title: "Phase 1",
     list: [
-      { name: "objective 1", state: "complete" },
-      { name: "objective 2", state: "complete" },
-      { name: "objective 3", state: "progress" },
-      { name: "objective 4", state: "progress" },
-      { name: "objective 4", state: "pending" },
+      { name: "Telegram Group", state: "complete" },
+      { name: "Website v1", state: "complete" },
+      { name: "Presale", state: "pending" },
+      { name: "Marketing", state: "pending" },
+      { name: "Fairlaunch!", state: "pending" },
     ],
   },
   {
     title: "Phase 2",
     list: [
-      { name: "objective 1", state: "pending" },
-      { name: "objective 2", state: "pending" },
-      { name: "objective 3", state: "pending" },
+      { name: "First Giving Fund giveaway", state: "pending" },
+      { name: "Influencer push", state: "pending" },
+      { name: "Promotional listings", state: "pending" },
     ],
   },
   {
     title: "Phase 3",
     list: [
-      { name: "objective 1", state: "pending" },
-      { name: "objective 2", state: "pending" },
-      { name: "objective 3", state: "pending" },
-      { name: "objective 4", state: "pending" },
+      { name: "CMC & CoinGecko", state: "pending" },
+      { name: "Audit", state: "pending" },
+      { name: "Meme competition", state: "pending" },
+      { name: "First community picked donation", state: "pending" },
     ],
   },
 ];
@@ -49,7 +49,7 @@ function ListItem({ listItem }) {
       icon = <Circle size={16} className="text-warning" /> 
       break;
     default:
-      icon = <Circle size={16} className="text-secondary" /> 
+      icon = <Circle size={16} className="text-secondary-light" /> 
       break;
   }
 
