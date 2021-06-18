@@ -3,11 +3,11 @@ import {
   Row,
   Col,
   Card,
-  Button,
-  OverlayTrigger,
+  // Button,
+  // OverlayTrigger,
 } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
-import { PublishTooltip } from "./PublishTooltip";
+// import { PublishTooltip } from "./PublishTooltip";
 
 const data = [
   {
@@ -28,10 +28,10 @@ function CustomCard({ item }) {
   return (
     <Col>
       <Zoom>
-        <Card className="p-2 mb-4">
+        <Card className="p-2 mb-4 border-white bg-light-white">
           <Card.Body className="text-center">
             <Card.Title className="pb-4">{item.title}</Card.Title>
-            <Card.Text className="display-5 ">{item.tagline}</Card.Text>
+            <Card.Text className="display-5 fw-bold">{item.tagline}</Card.Text>
             <Card.Text>{item.description}</Card.Text>
           </Card.Body>
         </Card>
@@ -57,7 +57,7 @@ export function Fund() {
             <p className="fs-5 mt-4">
               2% of every transaction will do go the Giving Fund.
             </p>
-            <OverlayTrigger
+            {/* <OverlayTrigger
               placement="bottom"
               overlay={PublishTooltip}
             >
@@ -68,7 +68,7 @@ export function Fund() {
               >
                 Fund Contract Address
               </Button>
-            </OverlayTrigger>
+            </OverlayTrigger> */}
           </Col>
           <Col>
             <Row xs={1} md={2} className="mt-5">

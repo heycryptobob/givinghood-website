@@ -30,7 +30,7 @@ function Feature({ feature }) {
       <Zoom>
         <Card className="border-0">
           <Card.Body className="text-center">
-            <Card.Title className="pb-4">{feature.title}</Card.Title>
+            <Card.Title className="pb-4 text-green-light">{feature.title}</Card.Title>
             <Card.Text>{feature.description}</Card.Text>
           </Card.Body>
         </Card>
@@ -43,9 +43,9 @@ export function Features() {
   return (
     <div className="p-5" id="features">
       <Container className="pb-5">
-        <h2 className="display-6 fw-bold mt-4 pt-4 text-center">Features</h2>
+        <h2 className="display-6 fw-bold mt-4 pt-4 text-center text-green-light">Features</h2>
         <p className="offset-md-3 col-md-6 fs-5 mt-4 text-center">
-          GivingHood will reward holders and participants
+          GivingHood will reward holders and participants.
         </p>
         <Row xs={1} md={4} className="g-4 mt-5">
           {features.map((feature, key) => (

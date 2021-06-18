@@ -1,21 +1,38 @@
-import { Container, Button, OverlayTrigger } from "react-bootstrap";
-import { ReactComponent as BscscanIcon } from "./images/bscscan.svg";
-import { ReactComponent as BogToolsIcon } from "./images/bogtools.svg";
-import { ReactComponent as PancakeSwapIcon } from "./images/pancakeswap.svg";
-import { PublishTooltip } from "./PublishTooltip";
+import {
+  Container,
+  Button,
+  Row,
+  Col,
+  // OverlayTrigger,
+  // Card,
+} from "react-bootstrap";
+// import { ReactComponent as BscscanIcon } from "./images/bscscan.svg";
+// import { ReactComponent as BogToolsIcon } from "./images/bogtools.svg";
+// import { ReactComponent as PancakeSwapIcon } from "./images/pancakeswap.svg";
+// import { PublishTooltip } from "./PublishTooltip";
+import { Telegram } from "@styled-icons/fa-brands";
+import logo from './logo.svg'
 
 export function Hero() {
   return (
-    <div className="p-5 bg-light">
+    <div className="p-5" id="hero">
       <Container>
-        <h1 className="display-5 fw-bold mt-4 pt-4">GivingHood</h1>
-        <p className="col-md-6 fs-4 mt-4">
-          Sick and tired of getting killed by the crypto market and scammed by
-          shitcoins? Don’t fear, GivingHood is here.
-        </p>
-        <div className="mt-4 mb-5 pb-5">
-          <OverlayTrigger placement="bottom" overlay={PublishTooltip}>
-            <Button size="lg">
+        <Row>
+          <Col className="text-white">
+            <h1 className="display-5 fw-bold mt-4 pt-4">GivingHood</h1>
+            <p className="fs-4 mt-4">
+              Sick and tired of getting killed by the crypto market and scammed
+              by shitcoins? Don’t fear, GivingHood is here.
+            </p>
+            <div className="mt-5 mb-5 pb-5 hidden">
+              <Button size="lg" variant="outline-light" href="https://t.me/GivingHood" target="_blank" rel="noreferrer">
+                <div className="d-flex align-items-center">
+                  <Telegram size={32} className="icon text-white" />
+                  &nbsp; Telegram Group
+                </div>
+              </Button>
+              {/* <OverlayTrigger placement="bottom" overlay={PublishTooltip}>
+            <Button size="lg" variant='light'>
               <div className="d-flex align-items-center">
                 <PancakeSwapIcon
                   size={24}
@@ -30,8 +47,8 @@ export function Hero() {
           <OverlayTrigger placement="bottom" overlay={PublishTooltip}>
             <Button
               size="lg"
-              variant="outline-secondary"
-              className="border-0 ms-2"
+              variant="link"
+              className="border-0 ms-2 text-white"
             >
               <div className="d-flex align-items-center">
                 <BscscanIcon
@@ -60,8 +77,17 @@ export function Hero() {
                 &nbsp; Chart
               </div>
             </Button>
-          </OverlayTrigger>
-        </div>
+          </OverlayTrigger> */}
+            </div>
+          </Col>
+          <Col className="d-flex align-items-center justify-content-center">
+            <div className="text-center text-white">
+              <img src={logo} width="160" height="160" alt="GivingHood" />
+              <h2 className="fw-bold">Fair Launch</h2>
+              <p>Launch time will be annouced soon.</p>
+            </div>
+          </Col>
+        </Row>
       </Container>
     </div>
   );
