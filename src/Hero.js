@@ -6,7 +6,7 @@ import {
   // OverlayTrigger,
   // Card,
 } from "react-bootstrap";
-import { ReactComponent as BscscanIcon } from "./images/bscscan.svg";
+// import { ReactComponent as BscscanIcon } from "./images/bscscan.svg";
 // import { ReactComponent as BogToolsIcon } from "./images/bogtools.svg";
 // import { ReactComponent as PancakeSwapIcon } from "./images/pancakeswap.svg";
 // import { PublishTooltip } from "./PublishTooltip";
