@@ -15,9 +15,9 @@ const roadmap = [
     list: [
       { name: "Telegram Group", state: "complete" },
       { name: "Website v1", state: "complete" },
-      { name: "Presale", state: "pending" },
-      { name: "Marketing", state: "pending" },
-      { name: "Fairlaunch!", state: "pending" },
+      { name: "Presale", state: "complete" },
+      { name: "Marketing", state: "progress" },
+      { name: "Fairlaunch!", state: "progress" },
     ],
   },
   {
