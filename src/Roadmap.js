@@ -17,7 +17,7 @@ const roadmap = [
       { name: "Website v1", state: "complete" },
       { name: "Presale", state: "complete" },
       { name: "Marketing", state: "progress" },
-      { name: "Fairlaunch!", state: "progress" },
+      { name: "Fairlaunch!", state: "complete" },
     ],
   },
   {
